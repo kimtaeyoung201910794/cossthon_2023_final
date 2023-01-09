@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * { 
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+video {
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+}
+
+.section-1 .navi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(60deg, #78dc35 0%, #25c5c2a2 100%);
+    z-index: 10;
+    opacity: 0.8;
+}
+
+
+.section-1 .navi .navi-item h1 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.section-1 .text {
+    font-family: 'S-CoreDream-3Light';
+    z-index: 10;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
+
+.text h1 {
+    font-weight: bold;
+    line-height: 88px;
+    font-size: 80px;
+}
+
+.header-menu {
+    width: 100%;
+    height: 10px;
+    background-color: blueviolet;
+}
+
+img {
+    background-attachment: fixed;
+}
+/* SECTION 03 */
+.section-3 {
+    font-family: 'S-CoreDream-3Light';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: black;
+}
+
+.section-3 .container {
+    width: 100%;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+.section-3 .container .title h1 {
+    letter-spacing:10px;
+    font-size: 60px;
+    font-style: normal;
+    background: linear-gradient(to right top, #b66d95, #8742af);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 88px;
+    text-align: center;
+}
+.section-3 .container .title p{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    letter-spacing:5px;
+    font-style: normal;
+    color: #78dc35;
+}
+.section-3 .container h1 {
+}
+
+.section-3 .container p {
+    font-size: 50px;
+    color: black;
+    font-style: normal;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.section-3 .container .items {
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+
+.section-3 .container .items .item {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 25%;
+    height: 100%;
+    margin: 15px;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+.section-3 .container .items .item h1 {
+    font-style: normal;
+    color: beige;
+}
+
+.section-3 .container .items .item p {
+    font-size: 14px;
+    color: #dbe1eb;
+    font-weight: lighter;
+    text-align: left;
+    padding-left: 34px;
+    padding-right: 34px;
+    line-height: 22px;
+    margin-top: 30px;
+}
+
+.section-3 .container .items .item:nth-child(1) {
+    background-image: linear-gradient(180deg, rgba(68, 32, 32, 0.6), rgba(230, 166, 166, 0.1)) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-3 .container .items .item:nth-child(2) {
+    background-image: linear-gradient(180deg, rgba(68, 32, 32, 0.6), rgba(230, 166, 166, 0.1)) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-3 .container .items .item:nth-child(3) {
+    background-image: linear-gradient(180deg, rgba(68, 32, 32, 0.6), rgba(230, 166, 166, 0.1)) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-3 .container .items .item:nth-child(4) {
+    background-image: linear-gradient(180deg, rgba(68, 32, 32, 0.6), rgba(230, 166, 166, 0.1));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-3 .container .items .item:hover {
+    z-index: 10;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.section-3 .more {
+    padding: 10px;
+    border: 1px solid purple;
+    width: 130px;
+    background: none;
+}
+
+.section-3 .more:hover {
+    transition: 0.7s;
+    box-shadow: 0 0 30px rgb(203, 88, 88); 
+}
+
+
+.indicator {
+    position: relative;
+    bottom: 30px;
+    right: 50%;
+    padding-top: 60px;
+}
+.indicator span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 30px;
+    height: 50px;
+    margin-left: -15px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+.indicator span::before {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    content: '';
+    width: 6px;
+    height: 6px;
+    margin-left: -3px;
+    background-color: #fff;
+    border-radius: 100%;
+    -webkit-animation: sdb 2s infinite;
+    animation: sdb 2s infinite;
+    box-sizing: border-box;
+}
+@-webkit-keyframes sdb {
+    0% {
+        -webkit-transform: translate(0, 0);
+        opacity: 0;
+    }
+    40% {
+        opacity: 1;
+    }
+    80% {
+        -webkit-transform: translate(0, 20px);
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+    }
+    @keyframes sdb {
+    0% {
+        transform: translate(0, 0);
+        opacity: 0;
+    }
+    40% {
+        opacity: 1;
+    }
+    80% {
+        transform: translate(0, 20px);
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+/* Hambuger Menu Icon */
+
+.menuStrong {
+    transition: 0.3s;
+    background-color: black;
+    padding: 8px;
+    border: 1px solid black;
+    color: black;
+}
+
+.path1, .path2{
+    stroke-dasharray: 104;
+    stroke-dashoffset: -71;
+    transition: 1s all ease;
+ }
+ .cross{
+   stroke-dashoffset: 68;
+ }
+ .mline{
+   stroke-dasharray: 41;
+   stroke-dashoffset: -82;
+   transition: 1s all ease;
+ }
+ .hide{
+   stroke-dasharray: 43;
+   stroke-dashoffset: 130;
+ }
+
+ /* fixed-menu */
+ .fixed-menu {
+    z-index: 101;
+    position: fixed;
+    width: 100%;
+ }
+
+ .fixed-menu .menu {
+    position: relative;
+    left: 93%;
+    top: 60px;
+ }
+
+ .menu p {
+    position: relative;
+    left: 4px;
+    font-size: 12px;
+ }
+/* sitemap */
+ .sitemap {
+    font-family: 'S-CoreDream-3Light';
+    display: flex;
+    z-index: 11;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+}
+
+ .sitemap .banner {
+    background-image: linear-gradient(180deg, rgb(97 42 245) 0%, rgb(93 39 123) 100%);
+    color: white;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 360px;
+ }
+
+ .sitemap .links {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.sitemap .links .link {
+    height: 100%;
+    width: 40%;
+    color: white;
+}
+
+.sitemap .header {
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+.sitemap .header p {
+    color: gray;
+    font-weight: bold;
+}
+
+.sitemap .header h1 {
+    margin-top: 20px;
+    color: white;
+    font-size: 34px;
+    font-weight: 600;
+    padding-bottom: 40px;
+    border-bottom: 2px solid gray;
+}
+
+.sitemap ul {
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+.sitemap ul li {
+    font-weight: 600;
+    margin-top: 30px;
+    font-size: 18px ;
+    color: gray;
+}
+
+.sitemap ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.hidden {
+    display: none;
+}

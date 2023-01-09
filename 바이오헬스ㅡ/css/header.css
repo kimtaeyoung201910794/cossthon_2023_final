@@ -1,0 +1,69 @@
+
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+header {
+    font-family: 'Noto Sans KR', sans-serif;
+    position: fixed;
+    width: 100%;
+    height: 120px;
+
+    font-weight: 400;
+}
+
+header .wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: 1480px;
+    height: 100%;
+    margin: auto;
+}
+
+#nav-logo {
+    position: relative;
+    top: -8px;
+    width: 300px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.nav {
+    margin-left: 80px;
+}
+
+header ul {
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 19px;
+}
+
+header ul li {
+    color: white;
+    display: inline-block;
+}
+
+
+.dept01 {display: none; padding: 20px 0; border-bottom: 1px solid #ccc; }
+
+
+
+/* 동적헤더 */
+.active {
+    background-color: white;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+}
+  
+.deactive {
+    background-color: transparent;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+
+    -webkit-transition-duration:0.5s;
+    -webkit-transition-timing-function:ease;
+}
+/* 동적헤더 끝 */
