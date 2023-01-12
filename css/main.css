@@ -1,5 +1,5 @@
 #main{
-    background-color: whitesmoke;
+    
     text-align: center;
     width: 80%;
     border-radius: 20px;
@@ -11,12 +11,17 @@ p{
 
 .startBtn{
     padding: 13px 50px;
-    border: 3px solid orange;
-    color: orange;
+    border: 3px solid rgb(133, 209, 110);
+    color: rgb(133, 209, 110);
     border-radius: 8px;
 }
 
 .startBtn:hover, .startBtn:active {
-    background-color: orange;
+    background-color: rgb(133, 209, 110);
     color: whitesmoke;
+}
+.sc1 {
+    margin-top: -700px;
+    z-index: 1;
+    position: relative;
 }
