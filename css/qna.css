@@ -1,25 +1,30 @@
 #qna{
     display: none;
+    
+}
+.sc2{
+    z-index: 2;
+    position: relative;
 }
 
 .Qbox {
     text-align: center;
     border-radius: 20px;
     font-size: 24px;
-    width: 80%;
+    width: 900px;
     font-family: 'GmarketSansMedium';
     padding : 5px 30px;
   }
 
 .answerList {
-    border: 1px solid #868686; ;
-    border-radius: 10px;
+    border: none; 
+    border-radius: 30px;
     display: block;
-    width: 70%;
+    width: 800px;
     font-size: 20px;
     padding : 5px 15px;
     color : black;
-    background-color: white;
+    
     text-align: left;
     font-family: 'GmarketSansMedium';
 }
@@ -32,22 +37,21 @@ border: none;
 }
 .answerList:hover, .answerList:focus {
 /* background-color: rgb(252, 206, 120); */
-background-color: #FFD966;
+background-color: rgb(153, 118, 118);
 color: rgb(0, 0, 0);
 border: none;
 text-decoration: none;
 }
 .status {
 height: 20px;
-width: 80%;
-background-color: white;
+width: 800px;
 border-radius: 20px;
 }
 
 .statusBar {
 height: 100%;
 border-radius: 7px;
-background: #FC9F27;
+background: #868686;
 }
 
 .countStatus{

@@ -4,9 +4,10 @@
     width: 80%;
     text-align: center;
     border-radius: 20px;
+    
   }
   #shareResult{
-    background-color: whitesmoke;
+    
     width: 80%;
     text-align: center;
     border-radius: 20px;
@@ -54,3 +55,9 @@
     font-family: GmarketSansMedium;
     color: #868686;
   }
+
+  .sc3 {
+    margin-top: -700px;
+    z-index: 1;
+    position: relative;
+}
