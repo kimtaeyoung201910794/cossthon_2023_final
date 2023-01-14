@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/sub1.css">
+    <title>향 추천 테스트</title>
+
+</head>
+<body>
+    <div class="vd">
+        <video src="../css/res/sad_women.mp4" muted autoplay loop></video>
+    </div>
+    <div class="sc1">
+        <section id="main" class="my-5 py-5 px-4 mx-auto">
+            
+            <div class="as">
+                <h1 class="jalnan">슬픈 당신을 위해</h1>
+            
+                <p class="Gmarket mt-5">
+                    
+                    향을 추천해드릴게요
+                    <br><br>
+                    아래 추천받기 버튼을 눌러주세요
+                </p>
+                <button type="button" class="startBtn btn" onclick="js:start()">추천받기</button>
+            
+        
+            </div>
+            
+        </section>
+    </div>
+    
+
+    <div class="sc2">
+        <section id="qna">
+            
+            <div class="status mx-auto mt-5">
+                <div class="countStatus">
+
+                </div>
+                <div class="statusBar">
+
+                </div>
+            </div>
+
+            
+            <div class="Qbox my-5 py-3 mx-auto">
+
+            </div>
+            <div class="aBox">
+                
+            </div>
+        </section>
+    </div>
+
+    <div class="sc3">
+        <section id="result" class = "mx-auto my-5 py-5 px-4">
+            <h2 class="jalnan">나에게 지금 어울리는 향수는?</h2>
+            <div class="Gmarket">
+                <div class="resultIntro">
+
+                </div>
+                <div class="resultName">
+
+                </div>
+            </div>
+            <div id="resultImg" class="my-3 col-lg-6 col-md-8 col-sn-10 mx-auto">
+
+            </div>
+            <div class="resultDecs">
+                <div class="resultDescTitle1">
+
+                </div>
+                <div class="resultDesc1">
+
+                </div>
+
+                <div class="resultDescTitle2">
+
+                </div>
+                <div class="resultDesc2">
+                    
+                </div>
+            </div>
+
+           
+        </section>
+    </div>
+    <script src="../js/mood.js"></script>
+   
+    <script src="../js/sub2_data.js"></script>
+    <!-- <script type="text/javascript">
+        function setShare(){
+            
+            var resultImg = document.querySelector('#resultImg'); 
+            var resultAlt = resultImg.firstElementChild.alt; 
+            const shareTitle = '나의 개발자 유형은 무엇일까? 나의 개발자 유형을 확인해보고 공유해보자!!';
+            const shareDes=infoList[resultAlt].name;
+            
+            const shareImage= 'https://taeyoungmbti.netlify.app/' + 'img/title_img.png';
+            const shareURL = 'https://taeyoungmbti.netlify.app/';
+            Kakao.Link.sendDefault({
+                objectType: 'feed',
+                content: {
+                title: shareDes,
+                description: shareTitle,
+                imageUrl: shareImage,
+                link: {
+                    mobileWebUrl: shareURL,
+                    webUrl : shareURL,
+                },
+                },
+                buttons: [
+                {
+                    title: '결과 확인하기',
+                    link: {
+                    mobileWebUrl: shareURL,
+                    webUrl : shareURL
+                    },
+                },
+                ]
+            });
+        
+        }
+      </script> -->
+</body>
+</html>
